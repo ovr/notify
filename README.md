@@ -20,3 +20,8 @@ How to send text:
 ```php
 $service->sendMessage("my simple test");
 ```
+
+License
+-------
+
+This project is open-sourced software licensed under the MIT License. See the LICENSE file for more information.

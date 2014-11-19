@@ -8,5 +8,10 @@
             "email": "talk@dmtry.me"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "PHPSystem\\Notify\\": "src/"
+        }
+    }
 }

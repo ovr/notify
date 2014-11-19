@@ -11,6 +11,6 @@ class NotifySend implements Provider
 {
     public function notify(Notification $notification)
     {
-
+        exec('notify-send "' . $notification->getMessage() . '"')
     }
 }

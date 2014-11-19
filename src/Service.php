@@ -29,4 +29,12 @@ class Service
     {
         $this->provider->notify(new Notification($message));
     }
+
+    /**
+     * @param Notification $notify
+     */
+    public function notify(Notification $notify)
+    {
+        $this->provider->notify($notify);
+    }
 }

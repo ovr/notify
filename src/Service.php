@@ -9,10 +9,24 @@ use PHPSystem\Notify\Provider\Provider;
 
 class Service
 {
+    /**
+     * @var Provider
+     */
     protected $provider;
 
+    /**
+     * @param Provider $provider
+     */
     public function __construct(Provider $provider)
     {
         $this->provider = $provider;
+    }
+
+    /**
+     * @param $message
+     */
+    public function sendMessage($message)
+    {
+        $this->provider->notify(new Notification($message));
     }
 }

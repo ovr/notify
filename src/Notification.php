@@ -9,7 +9,7 @@ class Notification
 {
     protected $message;
 
-    protected function __construct($message)
+    public function __construct($message)
     {
         $this->message = $message;
     }

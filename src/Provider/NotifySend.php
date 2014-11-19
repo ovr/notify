@@ -5,12 +5,12 @@
 
 namespace PHPSystem\Notify\Provider;
 
-use PHPSystem\Notify\Provider;
+use PHPSystem\Notify\Notification;
 
 class NotifySend implements Provider
 {
-    public function notify()
+    public function notify(Notification $notification)
     {
 
     }
-} 
+}

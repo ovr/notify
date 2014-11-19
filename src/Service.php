@@ -15,4 +15,4 @@ class Service
     {
         $this->provider = $provider;
     }
-} 
+}

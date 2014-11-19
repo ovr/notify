@@ -1,14 +1,13 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: ovr
- * Date: 19.11.14
- * Time: 18:59
+ * @author Patsura Dmitry http://github.com/ovr <talk@dmtry.me>
  */
 
 namespace PHPSystem\Notify\Provider;
 
+use PHPSystem\Notify\Notification;
+
 interface Provider
 {
-    public function notify();
-} 
+    public function notify(Notification $notification);
+}

@@ -5,12 +5,10 @@
 
 namespace PHPSystem\Notify;
 
-class Service
+class ProviderFactory
 {
-    protected $provider;
-
-    public function __construct($provider)
+    static public function getAvailable()
     {
-        $this->provider = $provider;
+        return new Provider\NotifySend();
     }
 } 

@@ -1,0 +1,12 @@
+{
+    "name": "php-system/notify",
+    "description": "Notify User in OS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patsura Dmitry",
+            "email": "talk@dmtry.me"
+        }
+    ],
+    "require": {}
+}

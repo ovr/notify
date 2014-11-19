@@ -5,7 +5,9 @@
 
 namespace PHPSystem\Notify\Provider;
 
-class NotifySend
+use PHPSystem\Notify\Provider;
+
+class NotifySend implements Provider
 {
     public function notify()
     {

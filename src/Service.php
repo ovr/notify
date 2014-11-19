@@ -5,11 +5,13 @@
 
 namespace PHPSystem\Notify;
 
+use PHPSystem\Notify\Provider\Provider;
+
 class Service
 {
     protected $provider;
 
-    public function __construct($provider)
+    public function __construct(Provider $provider)
     {
         $this->provider = $provider;
     }

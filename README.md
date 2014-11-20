@@ -24,6 +24,7 @@ $service->sendMessage("my simple test");
 Send custom `Notification`:
 
 ```php
+$notification = new Notify\Notification("Simple text message");
 $service->sendMessage($notification);
 ```
 

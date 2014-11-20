@@ -21,6 +21,12 @@ How to send text:
 $service->sendMessage("my simple test");
 ```
 
+Send custom `Notification`:
+
+```php
+$service->sendMessage($notification);
+```
+
 License
 -------
 

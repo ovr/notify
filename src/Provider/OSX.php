@@ -11,6 +11,6 @@ class NotifySend implements Provider
 {
     public function notify(Notification $notification)
     {
-        exec('display notification "' . $notification->getMessage() . '"');
+        exec('osascript -e \'display notification "' . $notification->getMessage() . '"\'');
     }
 }
